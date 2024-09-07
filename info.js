@@ -1,3 +1,10 @@
+
+document.addEventListener('DOMContentLoaded', () => {
+    const infoBoxes = document.querySelectorAll('.info-box');
+    infoBoxes.forEach(box => {
+        box.classList.add('show');
+    });
+});
 const images = document.querySelectorAll('.imagens img');
 
 let currentIndex = 0;
